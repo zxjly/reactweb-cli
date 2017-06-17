@@ -8,6 +8,7 @@
     "reactweb-init": "bin/reactweb-init"
   },
   "Files": "webpack-simple",
+  "Homepage" : "https://zxjly.github.io/reactweb-cli/",
   "repository": {
     "type": "git",
     "url": "https://github.com/zxjly/reactweb-cli.git"
