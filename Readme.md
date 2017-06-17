@@ -27,15 +27,15 @@ $ reactweb init my-project
 
 #### 目录结构
 ```
-    - build         // webpack相关配置
-    - config        // 配置
+    + build         // webpack相关配置
+    + config        // 配置
     - src           // 源码
         - asserts       // 静态资源
-            - imgs          // 图片: png, jpg...
-            - styles        // 样式: css, less...
-        - components   // React组件
-    - static        // 高度静态资源
-    - test          // 测试相关
+            + imgs          // 图片: png, jpg...
+            + styles        // 样式: css, less...
+        + components   // React组件
+    + static        // 高度静态资源
+    + test          // 测试相关
     .babelrc        // babel配置
     .eslintignore   // eslint 忽略配置
     .eslintrc.js    // eslint 配置
