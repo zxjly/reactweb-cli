@@ -1,12 +1,12 @@
 {
   "name": "reactweb-cli",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "A simple CLI for scaffolding React.js web projects.",
   "preferGlobal": true,
   "main": "lib/index.js",
   "bin": {
-    "reactweb": "bin/reactweb",
-    "reactweb-init": "bin/reactweb-init"
+    "reactweb": "bin/reactweb.js",
+    "reactweb-init": "bin/reactweb-init.js"
   },
   "Files": "webpack-simple",
   "Homepage": "https://zxjly.github.io/reactweb-cli/",
@@ -25,7 +25,7 @@
     "cli"
   ],
   "author": {
-    "name": "James Zhang",
+    "name": "jameszhang",
     "email": "james.zxj@foxmail.com"
   },
   "license": "MIT",
