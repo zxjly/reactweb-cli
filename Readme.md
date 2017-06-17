@@ -20,7 +20,7 @@ $ reactweb init <project-name>
 举例:
 
 ``` bash
-$ vue init my-project
+$ reactweb init my-project
 ```
 
 此命令将会在当前目录下生成一个react web工程.使用webpack作为打包工具.
