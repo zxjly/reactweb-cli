@@ -1,6 +1,6 @@
 {
   "name": "reactweb-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple CLI for scaffolding React.js web projects.",
   "preferGlobal": true,
   "main": "lib/index.js",
