@@ -50,7 +50,8 @@ var inPlace = !rawName || rawName === ".";
 var name = inPlace ? path.relative('../', process.cwd()) : rawName;
 var to = path.resolve(rawName || '.');
 
-var template = path.resolve(path.join(__dirname, '../webpack-simple'));   // 当前暂时使用本地模板.
+// var template = path.resolve(path.join(__dirname, '../webpack-simple'));   // 当前暂时使用本地模板
+var template = path.resolve(path.join(path.join(__dirname, '..'), 'webpack-simple'));
 
 process.on('exit', function () {
     console.log()
