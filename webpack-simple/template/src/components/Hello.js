@@ -3,11 +3,12 @@
  */
 import React from 'react'
 
-class Hello extends React.Component{
-  constructor(props, context){
-    super(props, context);
-  }
-  render(){
+class Hello extends React.Component {
+  // constructor(props, context) {
+  //   super(props, context);
+  // }
+
+  render () {
     return (
       <div className="text-center hello">
         <div>
@@ -20,7 +21,7 @@ class Hello extends React.Component{
           React Web工程已经创建成功!
         </h3>
         <p href="#">
-            现在开始在代码的世界里傲游吧!<br/>
+          现在开始在代码的世界里傲游吧!<br/>
         </p>
         <h4>
           欢迎使用reactweb-cli, 更多资料请点击 ->
